@@ -1,0 +1,29 @@
+{
+  "name": "Cecilion",
+  "role": [
+    "Unknown",
+    "Mage"
+  ],
+  "tier": "A",
+  "counters": [
+    "Lancelot",
+    "Hayabusa",
+    "Helcurt"
+  ],
+  "builds": [
+    {
+      "name": "Standard Build",
+      "items": [
+        "Arcane Boots",
+        "Clock of Destiny",
+        "Lightning Truncheon",
+        "Holy Crystal",
+        "Divine Glaive",
+        "Blood Wings"
+      ]
+    }
+  ],
+  "emblems": [],
+  "patchChanges": [],
+  "lastUpdated": "2025-04-26T05:27:57.050Z"
+}

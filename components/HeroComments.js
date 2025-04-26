@@ -1,14 +1,11 @@
 import { useState } from 'react';
 import { FaUser, FaCalendarAlt, FaPaperPlane } from 'react-icons/fa';
-import { addHeroComment } from '../services/api';
-import { useAuth } from './AuthContext';
 
 export default function HeroComments({ hero }) {
   const [comment, setComment] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [comments, setComments] = useState(hero.comments || []);
-  const { currentUser } = useAuth();
   
   // Sort comments by timestamp (newest first)
   const sortedComments = [...comments].sort((a, b) => {
@@ -19,17 +16,18 @@ export default function HeroComments({ hero }) {
     e.preventDefault();
     
     if (!comment.trim()) return;
-    if (!currentUser) {
-      setError('You must be logged in to add a comment');
-      return;
-    }
     
     setSubmitting(true);
     setError('');
     
     try {
-      const heroId = hero.name.toLowerCase().replace(/\s+/g, '-');
-      const newComment = await addHeroComment(heroId, comment);
+      // Create a new comment object
+      const newComment = {
+        userName: 'Guest User',
+        userPhotoURL: null,
+        content: comment,
+        timestamp: new Date().toISOString()
+      };
       
       // Add the new comment to the list
       setComments([...comments, newComment]);
@@ -50,45 +48,33 @@ export default function HeroComments({ hero }) {
       <div className="mb-8">
         <h4 className="text-lg font-medium mb-3">Add Your Comment</h4>
         
-        {currentUser ? (
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div>
-              <textarea
-                value={comment}
-                onChange={(e) => setComment(e.target.value)}
-                placeholder="Share your experiences, tips, or questions about this hero..."
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                rows={4}
-                required
-              ></textarea>
-            </div>
-            
-            {error && (
-              <div className="text-red-600 text-sm">{error}</div>
-            )}
-            
-            <div className="flex justify-end">
-              <button
-                type="submit"
-                className="button-primary flex items-center"
-                disabled={submitting}
-              >
-                <FaPaperPlane className="mr-2" />
-                {submitting ? 'Submitting...' : 'Post Comment'}
-              </button>
-            </div>
-          </form>
-        ) : (
-          <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 text-center">
-            <p className="text-blue-800 mb-2">You need to be logged in to comment</p>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <textarea
+              value={comment}
+              onChange={(e) => setComment(e.target.value)}
+              placeholder="Share your experiences, tips, or questions about this hero..."
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              rows={4}
+              required
+            ></textarea>
+          </div>
+          
+          {error && (
+            <div className="text-red-600 text-sm">{error}</div>
+          )}
+          
+          <div className="flex justify-end">
             <button
-              onClick={() => window.location.href = '/login'}
-              className="button-primary"
+              type="submit"
+              className="button-primary flex items-center"
+              disabled={submitting}
             >
-              Log In / Sign Up
+              <FaPaperPlane className="mr-2" />
+              {submitting ? 'Submitting...' : 'Post Comment'}
             </button>
           </div>
-        )}
+        </form>
       </div>
       
       {/* Comments list */}

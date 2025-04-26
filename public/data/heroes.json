@@ -1,0 +1,2944 @@
+[
+  {
+    "name": "Marksman",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:56.831Z"
+  },
+  {
+    "name": "Finisher",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Damage",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Gold Lane",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Fighter",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Regen",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Jungling",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Assassin",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Charge",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Roaming",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Mage",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Tank",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "EXP Lane",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Poke",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Burst",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Mid Lane",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Crowd Control",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Moniyan Empire",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Chase",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Magic Damage",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Guard",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Initiator",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Control",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Northern Vale",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Push",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Support",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Eruditio",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.042Z"
+  },
+  {
+    "name": "Vonetis Sea",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Alaghat",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Los Pecados",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Mixed Damage",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "22 March 2022",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Akai",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Atlas",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Franco",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Khufra",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Tigreal",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.043Z"
+  },
+  {
+    "name": "Nana",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Masha",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Bane",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Yi Sun-shin",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Balmond",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Lapu-Lapu",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Ruby",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Alice",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Guinevere",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Gusion",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Kadita",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Karina",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Lolita",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Silvanna",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Gatotkaca",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Harley",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Kaja",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Kimmy",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Natan",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.049Z"
+  },
+  {
+    "name": "Aldous",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Alucard",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Angela",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Aurora",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Baxia",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Belerick",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Bruno",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Carmilla",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Cecilion",
+    "role": [
+      "Unknown",
+      "Mage"
+    ],
+    "tier": "A",
+    "counters": [
+      "Lancelot",
+      "Hayabusa",
+      "Helcurt"
+    ],
+    "builds": [
+      {
+        "name": "Standard Build",
+        "items": [
+          "Arcane Boots",
+          "Clock of Destiny",
+          "Lightning Truncheon",
+          "Holy Crystal",
+          "Divine Glaive",
+          "Blood Wings"
+        ]
+      }
+    ],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Chang'e",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Chou",
+    "role": [
+      "Unknown",
+      "Fighter"
+    ],
+    "tier": "S",
+    "counters": [
+      "Khufra",
+      "Minsitthar",
+      "Franco"
+    ],
+    "builds": [
+      {
+        "name": "Standard Build",
+        "items": [
+          "Warrior Boots",
+          "Endless Battle",
+          "Blade of Despair",
+          "Blade of the Heptaseas",
+          "Malefic Roar",
+          "Immortality"
+        ]
+      }
+    ],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Claude",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Clint",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Cyclops",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Diggie",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Esmeralda",
+    "role": [
+      "Unknown",
+      "Mage",
+      "Tank"
+    ],
+    "tier": "S",
+    "counters": [
+      "Baxia",
+      "Valir",
+      "X.Borg"
+    ],
+    "builds": [
+      {
+        "name": "Standard Build",
+        "items": [
+          "Arcane Boots",
+          "Calamity Reaper",
+          "Feather of Heaven",
+          "Oracle",
+          "Holy Crystal",
+          "Immortality"
+        ]
+      }
+    ],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Estes",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Eudora",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Fanny",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Faramis",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Freya",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Gord",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Granger",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Grock",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Hanabi",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Hanzo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Harith",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Hayabusa",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Helcurt",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Hilda",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Hylos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Irithel",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Johnson",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Kagura",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Lancelot",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Layla",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Leomord",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Ling",
+    "role": [
+      "Unknown",
+      "Assassin"
+    ],
+    "tier": "S",
+    "counters": [
+      "Khufra",
+      "Franco",
+      "Kaja"
+    ],
+    "builds": [
+      {
+        "name": "Standard Build",
+        "items": [
+          "Swift Boots",
+          "Endless Battle",
+          "Berserker's Fury",
+          "Windtalker",
+          "Blade of Despair",
+          "Immortality"
+        ]
+      }
+    ],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Lunox",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Luo Yi",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Lylia",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Martis",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Miya",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Moskov",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Natalia",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Pharsa",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Rafaela",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Selena",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Sun",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Terizla",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Thamuz",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Uranus",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Vale",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Valir",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Vexana",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Yu Zhong",
+    "role": [
+      "Unknown",
+      "Fighter"
+    ],
+    "tier": "A",
+    "counters": [
+      "Esmeralda",
+      "Valir",
+      "Lunox"
+    ],
+    "builds": [
+      {
+        "name": "Standard Build",
+        "items": [
+          "Warrior Boots",
+          "Bloodlust Axe",
+          "Oracle",
+          "Queen's Wings",
+          "Brute Force Breastplate",
+          "Immortality"
+        ]
+      }
+    ],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Zhask",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Zilong",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Step-by-step on how to secure Lord in and win almost every time",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Aamon: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "jungle Akai: , skills, emblems, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Aldous: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Alice: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Alpha: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Alucard: , skills, emblem by Sky Wee",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Angela: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Argus: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Arlott: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Atlas: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Aulus: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Aurora: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.050Z"
+  },
+  {
+    "name": "Badang: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Balmond: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "The best Balmond build right now in Mobile Legends: Bang Bang",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Bane: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Barats: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "jungle Baxia: , skills, emblems, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Beatrix: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Belerick: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Benedetta: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Brody: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Bruno: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Carmilla: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Chang’e: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Cecilion: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Chip: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Chou: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Cici: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Claude: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Clint: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Cyclops: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Diggie: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Dyrroth: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Edith: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Esmeralda: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Estes: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Eudora: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Faramis: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Floryn: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Franco: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Fredrinn: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Freya: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Gatotkaca: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Gloo: , emblems, battle spell, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Gord: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Granger: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Granger: , items, emblem, combos by Sky Wee",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Guinevere: , skills, emblems, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Grock: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Hanabi: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Harith: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Harley: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Hayabusa: , combo, emblem, skills",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Helcurt: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Hilda: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Hylos: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Irithel: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Ixia: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Jawhead: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Johnson: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Joy: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Julian: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Kadita: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Kagura: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Kaja: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Karrie: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Karina: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Khaleed: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Khufra: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Lancelot: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Layla: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Leomord: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Lesley: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Ling: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Lolita: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Lunox: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Luo Yi: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Lylia: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Martis: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Masha: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Mathilda: , skills, emblems, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Minotaur: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Minsitthar: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Melissa: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Miya: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Moskov: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Nana: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Natan: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Nolan: , skills, emblems, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Novaria: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Odette: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Paquito: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Phoveus: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Popol and Kupa: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Rafaela: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Roger: , skills, emblems, combos",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Ruby: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Pharsa: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Saber: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Selena: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Silvanna: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Suyou: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Sun: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Terizla: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Thamuz: , skills, emblem, combo",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Tigreal: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Uranus: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Vale: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Valentina: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Valir: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Vexana: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Wanwan: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "X.Borg: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Xavier: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Yin: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Yi Sun-Shin: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Yu Zhong: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Yve: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Zhask: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Zhuxin: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Zilong: ,",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  },
+  {
+    "name": "Zilong: , emblem, combos by Sky Wee",
+    "role": [
+      "Unknown"
+    ],
+    "tier": "Unknown",
+    "counters": [],
+    "builds": [],
+    "emblems": [],
+    "patchChanges": [],
+    "lastUpdated": "2025-04-26T05:27:57.051Z"
+  }
+]

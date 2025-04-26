@@ -1,13 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { FaStar, FaRegStar } from 'react-icons/fa';
-import { doc, updateDoc, arrayUnion, arrayRemove } from 'firebase/firestore';
-import { db } from '../firebase-config';
-import { useAuth } from './AuthContext';
 
 export default function HeroCard({ hero }) {
-  const { currentUser } = useAuth();
-  const [isFavorite, setIsFavorite] = useState(hero.isFavorite || false);
+  const [isFavorite, setIsFavorite] = useState(false);
   
   // Default hero image if none provided
   const heroImage = hero.image || `https://via.placeholder.com/100x100?text=${encodeURIComponent(hero.name)}`;
@@ -15,48 +11,43 @@ export default function HeroCard({ hero }) {
   // Convert role array to string
   const roleString = Array.isArray(hero.role) ? hero.role.join(', ') : hero.role || 'Unknown';
   
+  // Check localStorage on component mount
+  useEffect(() => {
+    const favorites = JSON.parse(localStorage.getItem('favoriteHeroes') || '[]');
+    const heroId = hero.name.toLowerCase().replace(/\s+/g, '-');
+    setIsFavorite(favorites.includes(heroId));
+  }, [hero.name]);
+  
   // Function to toggle favorite status
-  const toggleFavorite = async (e) => {
+  const toggleFavorite = (e) => {
     e.preventDefault(); // Prevent navigation to hero details
     
-    if (!currentUser) {
-      alert('Please log in to save favorites');
-      return;
+    const heroId = hero.name.toLowerCase().replace(/\s+/g, '-');
+    const favorites = JSON.parse(localStorage.getItem('favoriteHeroes') || '[]');
+    
+    let newFavorites;
+    if (isFavorite) {
+      // Remove from favorites
+      newFavorites = favorites.filter(id => id !== heroId);
+    } else {
+      // Add to favorites
+      newFavorites = [...favorites, heroId];
     }
     
-    try {
-      const userRef = doc(db, 'users', currentUser.uid);
-      
-      if (isFavorite) {
-        // Remove from favorites
-        await updateDoc(userRef, {
-          favoriteHeroes: arrayRemove(hero.name.toLowerCase().replace(/\s+/g, '-'))
-        });
-      } else {
-        // Add to favorites
-        await updateDoc(userRef, {
-          favoriteHeroes: arrayUnion(hero.name.toLowerCase().replace(/\s+/g, '-'))
-        });
-      }
-      
-      setIsFavorite(!isFavorite);
-    } catch (error) {
-      console.error('Error updating favorites:', error);
-    }
+    localStorage.setItem('favoriteHeroes', JSON.stringify(newFavorites));
+    setIsFavorite(!isFavorite);
   };
   
   return (
     <Link href={`/hero/${hero.name.toLowerCase().replace(/\s+/g, '-')}`}>
       <div className="hero-card relative h-full">
-        {currentUser && (
-          <button 
-            onClick={toggleFavorite}
-            className="absolute top-2 right-2 z-10 text-yellow-500 hover:text-yellow-600 transition-colors"
-            aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-          >
-            {isFavorite ? <FaStar size={20} /> : <FaRegStar size={20} />}
-          </button>
-        )}
+        <button 
+          onClick={toggleFavorite}
+          className="absolute top-2 right-2 z-10 text-yellow-500 hover:text-yellow-600 transition-colors"
+          aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+        >
+          {isFavorite ? <FaStar size={20} /> : <FaRegStar size={20} />}
+        </button>
         
         <div className="hero-card-header flex justify-between items-center">
           <h3 className="text-lg font-bold truncate">{hero.name}</h3>

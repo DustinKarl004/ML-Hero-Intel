@@ -1,0 +1,29 @@
+{
+  "name": "Yu Zhong",
+  "role": [
+    "Unknown",
+    "Fighter"
+  ],
+  "tier": "A",
+  "counters": [
+    "Esmeralda",
+    "Valir",
+    "Lunox"
+  ],
+  "builds": [
+    {
+      "name": "Standard Build",
+      "items": [
+        "Warrior Boots",
+        "Bloodlust Axe",
+        "Oracle",
+        "Queen's Wings",
+        "Brute Force Breastplate",
+        "Immortality"
+      ]
+    }
+  ],
+  "emblems": [],
+  "patchChanges": [],
+  "lastUpdated": "2025-04-26T05:27:57.050Z"
+}

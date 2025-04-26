@@ -1,0 +1,30 @@
+{
+  "name": "Esmeralda",
+  "role": [
+    "Unknown",
+    "Mage",
+    "Tank"
+  ],
+  "tier": "S",
+  "counters": [
+    "Baxia",
+    "Valir",
+    "X.Borg"
+  ],
+  "builds": [
+    {
+      "name": "Standard Build",
+      "items": [
+        "Arcane Boots",
+        "Calamity Reaper",
+        "Feather of Heaven",
+        "Oracle",
+        "Holy Crystal",
+        "Immortality"
+      ]
+    }
+  ],
+  "emblems": [],
+  "patchChanges": [],
+  "lastUpdated": "2025-04-26T05:27:57.050Z"
+}

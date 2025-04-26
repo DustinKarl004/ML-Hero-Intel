@@ -1,0 +1,29 @@
+{
+  "name": "Chou",
+  "role": [
+    "Unknown",
+    "Fighter"
+  ],
+  "tier": "S",
+  "counters": [
+    "Khufra",
+    "Minsitthar",
+    "Franco"
+  ],
+  "builds": [
+    {
+      "name": "Standard Build",
+      "items": [
+        "Warrior Boots",
+        "Endless Battle",
+        "Blade of Despair",
+        "Blade of the Heptaseas",
+        "Malefic Roar",
+        "Immortality"
+      ]
+    }
+  ],
+  "emblems": [],
+  "patchChanges": [],
+  "lastUpdated": "2025-04-26T05:27:57.050Z"
+}
