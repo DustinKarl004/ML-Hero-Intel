@@ -1,7 +1,14 @@
-const { db } = require('../firebase-config');
+const fs = require('fs').promises;
+const path = require('path');
 const fandomScraper = require('./fandomScraper');
 const mlbbheroScraper = require('./mlbbheroScraper');
 const oneesportsScraper = require('./oneesportsScraper');
+
+// Output paths
+const DATA_DIR = path.join(__dirname, '../../public/data');
+const ALL_HEROES_PATH = path.join(DATA_DIR, 'heroes.json');
+const HEROES_BY_ID_DIR = path.join(DATA_DIR, 'heroes');
+const METADATA_PATH = path.join(DATA_DIR, 'metadata.json');
 
 // Function to merge data from different sources
 const mergeHeroData = (heroDataArrays) => {
@@ -41,17 +48,38 @@ const mergeHeroData = (heroDataArrays) => {
   return Object.values(mergedData);
 };
 
-// Save hero data to Firestore
-const saveToFirestore = async (heroData) => {
-  const batch = db.batch();
-  
-  for (const hero of heroData) {
-    const heroRef = db.collection('heroes').doc(hero.name.toLowerCase().replace(/\s+/g, '-'));
-    batch.set(heroRef, hero, { merge: true });
+// Save hero data to JSON files
+const saveToJSON = async (heroData) => {
+  try {
+    // Ensure directories exist
+    await fs.mkdir(DATA_DIR, { recursive: true });
+    await fs.mkdir(HEROES_BY_ID_DIR, { recursive: true });
+    
+    // Save all heroes to one file
+    await fs.writeFile(ALL_HEROES_PATH, JSON.stringify(heroData, null, 2));
+    console.log(`Saved ${heroData.length} heroes to ${ALL_HEROES_PATH}`);
+    
+    // Save individual hero files
+    for (const hero of heroData) {
+      const heroId = hero.name.toLowerCase().replace(/\s+/g, '-');
+      const heroPath = path.join(HEROES_BY_ID_DIR, `${heroId}.json`);
+      await fs.writeFile(heroPath, JSON.stringify(hero, null, 2));
+    }
+    console.log(`Saved individual hero files to ${HEROES_BY_ID_DIR}`);
+    
+    // Save metadata
+    const metadata = {
+      lastSuccessfulScrape: new Date().toISOString(),
+      totalHeroes: heroData.length
+    };
+    await fs.writeFile(METADATA_PATH, JSON.stringify(metadata, null, 2));
+    console.log(`Saved scraping metadata to ${METADATA_PATH}`);
+    
+    return true;
+  } catch (error) {
+    console.error('Error saving hero data to JSON:', error);
+    throw error;
   }
-
-  await batch.commit();
-  console.log(`Saved ${heroData.length} heroes to Firestore`);
 };
 
 // Main function to run all scrapers
@@ -71,13 +99,8 @@ const runAllScrapers = async () => {
     // Merge data from all sources
     const mergedData = mergeHeroData([fandomData, mlbbheroData, oneesportsData]);
     
-    // Save to Firestore
-    await saveToFirestore(mergedData);
-    
-    // Update timestamp for the last successful scrape
-    await db.collection('metadata').doc('scraping').set({
-      lastSuccessfulScrape: new Date().toISOString()
-    });
+    // Save to JSON files
+    await saveToJSON(mergedData);
     
     console.log('All scrapers completed successfully');
     return mergedData;

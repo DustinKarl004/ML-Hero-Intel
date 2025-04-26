@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 // Base URL for MLBB Fandom wiki
-const BASE_URL = 'https://mobile-legends.fandom.com/wiki/List_of_heroes';
+const BASE_URL = 'https://mobile-legends.fandom.com';
 
 // Function to scrape hero list from Fandom
 const scrapeHeroList = async () => {

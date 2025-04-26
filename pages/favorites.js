@@ -4,29 +4,19 @@ import Layout from '../components/Layout';
 import HeroCard from '../components/HeroCard';
 import Loading from '../components/Loading';
 import { getUserFavorites } from '../services/api';
-import { useAuth } from '../components/AuthContext';
 import { FaStar } from 'react-icons/fa';
 
 export default function Favorites() {
   const [favorites, setFavorites] = useState([]);
   const [loading, setLoading] = useState(true);
-  const { currentUser } = useAuth();
   const router = useRouter();
 
   useEffect(() => {
-    // Redirect to login if not logged in
-    if (!currentUser && !loading) {
-      router.push('/login');
-      return;
-    }
-
     async function fetchFavorites() {
       try {
-        if (currentUser) {
-          setLoading(true);
-          const favoritesData = await getUserFavorites(currentUser.uid);
-          setFavorites(favoritesData);
-        }
+        setLoading(true);
+        const favoritesData = await getUserFavorites();
+        setFavorites(favoritesData);
       } catch (error) {
         console.error('Error fetching favorites:', error);
       } finally {
@@ -35,7 +25,7 @@ export default function Favorites() {
     }
 
     fetchFavorites();
-  }, [currentUser, router]);
+  }, []);
 
   return (
     <Layout title="My Favorites - ML Hero Intel">

@@ -3,15 +3,13 @@ import Layout from '../components/Layout';
 import HeroCard from '../components/HeroCard';
 import HeroFilter from '../components/HeroFilter';
 import Loading from '../components/Loading';
-import { getAllHeroes, getUserFavorites } from '../services/api';
-import { useAuth } from '../components/AuthContext';
+import { getAllHeroes, getUserFavorites, isHeroFavorite } from '../services/api';
 
 export default function Home() {
   const [heroes, setHeroes] = useState([]);
   const [filteredHeroes, setFilteredHeroes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { currentUser } = useAuth();
 
   // Fetch heroes data
   useEffect(() => {
@@ -22,16 +20,15 @@ export default function Home() {
         // Fetch all heroes
         const heroesData = await getAllHeroes();
         
-        // If user is logged in, fetch and mark favorite heroes
-        if (currentUser) {
-          const favoritesData = await getUserFavorites(currentUser.uid);
-          const favoriteIds = favoritesData.map(hero => hero.name.toLowerCase().replace(/\s+/g, '-'));
-          
-          // Mark favorite heroes
-          heroesData.forEach(hero => {
-            hero.isFavorite = favoriteIds.includes(hero.name.toLowerCase().replace(/\s+/g, '-'));
-          });
-        }
+        // Fetch favorites from localStorage
+        const favoritesData = await getUserFavorites();
+        const favoriteIds = favoritesData.map(hero => hero.name.toLowerCase().replace(/\s+/g, '-'));
+        
+        // Mark favorite heroes
+        heroesData.forEach(hero => {
+          const heroId = hero.name.toLowerCase().replace(/\s+/g, '-');
+          hero.isFavorite = favoriteIds.includes(heroId);
+        });
         
         setHeroes(heroesData);
         setFilteredHeroes(heroesData);
@@ -45,7 +42,7 @@ export default function Home() {
     }
     
     fetchData();
-  }, [currentUser]);
+  }, []);
   
   // Handle filter changes
   const handleFilterChange = ({ searchTerm, roles, tier }) => {

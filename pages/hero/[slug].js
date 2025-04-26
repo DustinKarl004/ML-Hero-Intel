@@ -5,8 +5,7 @@ import { FaStar, FaRegStar, FaArrowLeft } from 'react-icons/fa';
 import Layout from '../../components/Layout';
 import HeroDetailTabs from '../../components/HeroDetailTabs';
 import Loading from '../../components/Loading';
-import { getHeroById, addToFavorites, removeFromFavorites, getUserFavorites } from '../../services/api';
-import { useAuth } from '../../components/AuthContext';
+import { getHeroById, addToFavorites, removeFromFavorites, isHeroFavorite } from '../../services/api';
 
 export default function HeroDetail() {
   const router = useRouter();
@@ -15,7 +14,6 @@ export default function HeroDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isFavorite, setIsFavorite] = useState(false);
-  const { currentUser } = useAuth();
   
   // Fetch hero data
   useEffect(() => {
@@ -28,11 +26,9 @@ export default function HeroDetail() {
         // Get hero details
         const heroData = await getHeroById(slug);
         
-        // If user is logged in, check if hero is in favorites
-        if (currentUser) {
-          const userFavorites = await getUserFavorites(currentUser.uid);
-          const favoriteIds = userFavorites.map(h => h.name.toLowerCase().replace(/\s+/g, '-'));
-          setIsFavorite(favoriteIds.includes(slug));
+        // Check if hero is in favorites using localStorage
+        if (typeof window !== 'undefined') {
+          setIsFavorite(isHeroFavorite(slug));
         }
         
         setHero(heroData);
@@ -46,20 +42,15 @@ export default function HeroDetail() {
     }
     
     fetchHero();
-  }, [slug, currentUser]);
+  }, [slug]);
   
   // Toggle favorite status
   const toggleFavorite = async () => {
-    if (!currentUser) {
-      router.push('/login');
-      return;
-    }
-    
     try {
       if (isFavorite) {
-        await removeFromFavorites(currentUser.uid, slug);
+        await removeFromFavorites(slug);
       } else {
-        await addToFavorites(currentUser.uid, slug);
+        await addToFavorites(slug);
       }
       
       setIsFavorite(!isFavorite);
@@ -121,25 +112,23 @@ export default function HeroDetail() {
                   </div>
                   
                   {/* Favorite button */}
-                  {currentUser && (
-                    <button
-                      onClick={toggleFavorite}
-                      className="flex items-center justify-center ml-auto bg-white text-primary-600 hover:bg-primary-50 font-bold py-2 px-4 rounded-full transition-colors"
-                      aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-                    >
-                      {isFavorite ? (
-                        <>
-                          <FaStar className="mr-2 text-yellow-500" />
-                          Favorited
-                        </>
-                      ) : (
-                        <>
-                          <FaRegStar className="mr-2" />
-                          Add to Favorites
-                        </>
-                      )}
-                    </button>
-                  )}
+                  <button
+                    onClick={toggleFavorite}
+                    className="flex items-center justify-center ml-auto bg-white text-primary-600 hover:bg-primary-50 font-bold py-2 px-4 rounded-full transition-colors"
+                    aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+                  >
+                    {isFavorite ? (
+                      <>
+                        <FaStar className="mr-2 text-yellow-500" />
+                        Favorited
+                      </>
+                    ) : (
+                      <>
+                        <FaRegStar className="mr-2" />
+                        Add to Favorites
+                      </>
+                    )}
+                  </button>
                 </div>
               </div>
             </div>

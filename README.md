@@ -1,108 +1,74 @@
-# ML Hero Intel
+# ML Hero Intel - Frontend
 
 A comprehensive platform for Mobile Legends: Bang Bang players to access up-to-date hero information, builds, counters, and trends.
 
-## Project Overview
+## Overview
 
-ML Hero Intel automatically scrapes and aggregates hero data from various trusted sources in the Mobile Legends community, presenting it in a clean, user-friendly interface. Users can browse heroes, view detailed statistics, save favorites, and stay updated on the latest meta.
+This is a static frontend for ML Hero Intel that works without a database. It automatically scrapes hero data during the build process and stores it as static JSON files, making it perfect for deployment on platforms like Vercel.
 
 ## Features
 
 - **Comprehensive Hero Database**: Access detailed information on all Mobile Legends heroes
-- **Automated Data Collection**: Regular updates from trusted MLBB sources
-- **User Authentication**: Create accounts to save favorite heroes and preferences
+- **Automated Data Collection**: Data is scraped from trusted MLBB sources during build
+- **Local Favorites**: Save favorite heroes in your browser's localStorage
 - **Responsive Design**: Optimized for both desktop and mobile devices
 - **Hero Details**: View builds, counters, stats, and patch notes for each hero
-- **Admin Dashboard**: Trigger manual data updates and view scraping logs
 
 ## Tech Stack
 
-### Frontend
 - Next.js
 - React
 - Tailwind CSS
-- Firebase Authentication
-- Vercel (deployment)
-
-### Backend
-- Firebase Cloud Functions
-- Firestore Database
-- Node.js
-- Puppeteer (for web scraping)
+- Cheerio (for web scraping)
+- Vercel (for deployment)
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js (v14 or later)
 - npm or yarn
-- Firebase account
-- Vercel account (for deployment)
 
 ### Installation
 
 1. Clone the repository:
    ```
    git clone https://github.com/yourusername/ml-hero-intel.git
-   cd ml-hero-intel
    ```
 
-2. Install dependencies for both frontend and backend:
+2. Install dependencies:
    ```
-   # Frontend
-   cd frontend
-   npm install
-   
-   # Backend
-   cd ../backend
    npm install
    ```
 
-3. Set up environment variables:
-   - Copy `.env.example` to `.env.local` in the frontend directory
-   - Copy `.env.example` to `.env` in the backend directory
-   - Fill in your Firebase configuration details
-
-4. Run the development servers:
+3. Run development server:
    ```
-   # Frontend
-   cd frontend
    npm run dev
-   
-   # Backend (Firebase emulators)
-   cd ../backend
-   firebase emulators:start
    ```
 
-5. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:3000`
 
-## Project Structure
+### Building for Production
 
 ```
-ml-hero-intel/
-├── frontend/               # Next.js application
-│   ├── components/         # React components
-│   ├── contexts/           # React contexts (auth, etc.)
-│   ├── pages/              # Next.js pages
-│   ├── public/             # Static assets
-│   ├── services/           # API services
-│   ├── styles/             # CSS styles
-│   ├── utils/              # Utility functions
-│   └── DEPLOYMENT.md       # Frontend deployment guide
-│
-├── backend/                # Firebase backend
-│   ├── functions/          # Cloud Functions
-│   ├── scrapers/           # Web scraping scripts
-│   ├── firestore.rules     # Firestore security rules
-│   └── DEPLOYMENT.md       # Backend deployment guide
-│
-└── README.md               # Project documentation
+npm run build
+npm run start
+```
+
+### Manual Data Update
+
+To manually update the hero data without running the full build:
+
+```
+npm run scrape
 ```
 
 ## Deployment
 
-For detailed deployment instructions, see:
-- [Frontend Deployment Guide](frontend/DEPLOYMENT.md)
-- [Backend Deployment Guide](backend/DEPLOYMENT.md)
+This project is designed to be deployed directly to Vercel:
+
+1. Connect your GitHub repository to Vercel
+2. Deploy with default settings (build command is already configured)
+3. Vercel will automatically run the scraper during the build process
 
 ## Contributing
 

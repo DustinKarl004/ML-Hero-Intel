@@ -2,22 +2,11 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useAuth } from './AuthContext';
-import { FaHome, FaStar, FaUser, FaSignOutAlt, FaSignInAlt, FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome, FaStar, FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Layout({ children, title = 'ML Hero Intel' }) {
-  const { currentUser, logout } = useAuth();
   const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const handleLogout = async () => {
-    try {
-      await logout();
-      router.push('/');
-    } catch (error) {
-      console.error('Failed to log out', error);
-    }
-  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -55,23 +44,6 @@ export default function Layout({ children, title = 'ML Hero Intel' }) {
             <Link href="/favorites" className={`nav-link ${router.pathname === '/favorites' ? 'font-bold' : ''}`}>
               <FaStar className="inline mr-1" /> Favorites
             </Link>
-            {currentUser ? (
-              <>
-                <Link href="/profile" className={`nav-link ${router.pathname === '/profile' ? 'font-bold' : ''}`}>
-                  <FaUser className="inline mr-1" /> Profile
-                </Link>
-                <button 
-                  onClick={handleLogout} 
-                  className="nav-link flex items-center"
-                >
-                  <FaSignOutAlt className="inline mr-1" /> Logout
-                </button>
-              </>
-            ) : (
-              <Link href="/login" className={`nav-link ${router.pathname === '/login' ? 'font-bold' : ''}`}>
-                <FaSignInAlt className="inline mr-1" /> Login
-              </Link>
-            )}
           </nav>
         </div>
 
@@ -85,26 +57,6 @@ export default function Layout({ children, title = 'ML Hero Intel' }) {
               <Link href="/favorites" className={`nav-link ${router.pathname === '/favorites' ? 'font-bold' : ''}`} onClick={() => setIsMenuOpen(false)}>
                 <FaStar className="inline mr-2" /> Favorites
               </Link>
-              {currentUser ? (
-                <>
-                  <Link href="/profile" className={`nav-link ${router.pathname === '/profile' ? 'font-bold' : ''}`} onClick={() => setIsMenuOpen(false)}>
-                    <FaUser className="inline mr-2" /> Profile
-                  </Link>
-                  <button 
-                    onClick={() => {
-                      handleLogout();
-                      setIsMenuOpen(false);
-                    }} 
-                    className="nav-link flex items-center"
-                  >
-                    <FaSignOutAlt className="inline mr-2" /> Logout
-                  </button>
-                </>
-              ) : (
-                <Link href="/login" className={`nav-link ${router.pathname === '/login' ? 'font-bold' : ''}`} onClick={() => setIsMenuOpen(false)}>
-                  <FaSignInAlt className="inline mr-2" /> Login
-                </Link>
-              )}
             </nav>
           </div>
         )}
