@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 // Base URL for MLBBHero website
-const BASE_URL = 'https://mlbbhero.com';
+const BASE_URL = 'https://mlbbhero.com/heroes';
 
 // Function to scrape hero list from MLBBHero
 const scrapeHeroList = async () => {

@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const puppeteer = require('puppeteer');
 
 // Base URL for OneEsports MLBB articles
-const BASE_URL = 'https://oneesports.gg';
+const BASE_URL = 'https://www.oneesports.gg/mobile-legends';
 const SEARCH_URL = 'https://oneesports.gg/?s=mobile+legends+tier+list';
 
 // Function to get hero list and tier information from tier list articles
